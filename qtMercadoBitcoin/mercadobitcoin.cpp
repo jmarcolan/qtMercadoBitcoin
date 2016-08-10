@@ -17,5 +17,5 @@ void MercadoBitcoin::on_pushButton_clicked()
 {
 //hellow github funciona para mim ver
 
-    //helo wordl
+
 }
