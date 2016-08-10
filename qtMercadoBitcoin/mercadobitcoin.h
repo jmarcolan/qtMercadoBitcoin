@@ -15,6 +15,9 @@ public:
     explicit MercadoBitcoin(QWidget *parent = 0);
     ~MercadoBitcoin();
 
+private slots:
+    void on_pushButton_clicked();
+
 private:
     Ui::MercadoBitcoin *ui;
 };

@@ -12,3 +12,8 @@ MercadoBitcoin::~MercadoBitcoin()
 {
     delete ui;
 }
+
+void MercadoBitcoin::on_pushButton_clicked()
+{
+    //helo wordl
+}
