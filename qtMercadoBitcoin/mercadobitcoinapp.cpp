@@ -6,6 +6,8 @@ MercadoBitcoinApp::MercadoBitcoinApp(QWidget *parent) :
     ui(new Ui::MercadoBitcoinApp)
 {
     ui->setupUi(this);
+    //oi meu nome é joao
+    //jahha
 }
 
 MercadoBitcoinApp::~MercadoBitcoinApp()
