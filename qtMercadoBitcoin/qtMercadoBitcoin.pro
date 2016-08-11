@@ -13,8 +13,10 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mercadobitcoinapp.cpp
+        mercadobitcoinapp.cpp \
+    configura.cpp
 
-HEADERS  += mercadobitcoinapp.h
+HEADERS  += mercadobitcoinapp.h \
+    configura.h
 
 FORMS    += mercadobitcoinapp.ui
