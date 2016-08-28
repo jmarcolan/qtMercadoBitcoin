@@ -1,10 +1,10 @@
-#include "mercadobitcoinapp.h"
+#include "mercadobitcoin.h"
 #include <QApplication>
 
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    MercadoBitcoinApp w;
+    MercadoBitcoin w;
     w.show();
 
     return a.exec();
