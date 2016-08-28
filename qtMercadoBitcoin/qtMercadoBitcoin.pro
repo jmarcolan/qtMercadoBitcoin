@@ -1,10 +1,12 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2016-08-09T17:03:41
+# Project created by QtCreator 2016-08-10T20:04:06
 #
 #-------------------------------------------------
 
 QT       += core gui
+QT       += network
+QT       += printsupport
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -13,10 +15,10 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mercadobitcoinapp.cpp \
-    configura.cpp
+        mercadobitcoin.cpp \
+        qcustomplot.cpp
 
-HEADERS  += mercadobitcoinapp.h \
-    configura.h
+HEADERS  += mercadobitcoin.h \
+         qcustomplot.h
 
-FORMS    += mercadobitcoinapp.ui
+FORMS    += mercadobitcoin.ui
